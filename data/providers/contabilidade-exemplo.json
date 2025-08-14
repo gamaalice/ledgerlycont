@@ -1,0 +1,42 @@
+{
+  "id": "contabilidade-exemplo",
+  "name": "Contabilidade Exemplo",
+  "category": "contabilidade",
+  "site_url": "https://exemplo.com",
+  "logo_url": "/placeholder.svg?height=60&width=120",
+  "last_updated": "2024-01-15T10:00:00Z",
+  "source_urls": ["https://exemplo.com/planos", "https://exemplo.com/precos"],
+  "plans": [
+    {
+      "id": "mei-basico",
+      "name": "MEI Básico",
+      "price_month": 89.9,
+      "nf_limit_per_month": 50,
+      "payroll_included": false,
+      "advisory_included": false,
+      "support_sla": "email",
+      "target": ["MEI"],
+      "features": ["Emissão de NF até 50/mês", "Declaração anual MEI", "Suporte por email", "Portal do cliente"],
+      "constraints": ["Não inclui folha de pagamento", "Consultoria não incluída"]
+    },
+    {
+      "id": "me-completo",
+      "name": "ME Completo",
+      "price_month": 299.9,
+      "price_setup": 150.0,
+      "nf_limit_per_month": 200,
+      "payroll_included": true,
+      "advisory_included": true,
+      "support_sla": "chat",
+      "target": ["ME", "EPP"],
+      "features": [
+        "Emissão de NF até 200/mês",
+        "Folha de pagamento incluída",
+        "Consultoria mensal",
+        "Suporte por chat",
+        "Portal do cliente avançado",
+        "Relatórios gerenciais"
+      ]
+    }
+  ]
+}

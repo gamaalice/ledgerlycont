@@ -1,0 +1,66 @@
+{
+  "id": "contabilizei",
+  "name": "Contabilizei",
+  "category": "contabilidade",
+  "site_url": "https://contabilizei.com.br",
+  "logo_url": "https://placeholder.svg/120x60/0D3B66/FFFFFF?text=Contabilizei",
+  "last_updated": "2024-01-15T10:00:00Z",
+  "source_urls": ["https://contabilizei.com.br/planos-e-precos"],
+  "plans": [
+    {
+      "id": "mei-light",
+      "name": "MEI Light",
+      "price_month": 39.9,
+      "nf_limit_per_month": 100,
+      "payroll_included": false,
+      "advisory_included": false,
+      "support_sla": "email",
+      "target": ["MEI"],
+      "features": [
+        "Emissão ilimitada de notas fiscais",
+        "Declaração anual do MEI (DASN-SIMEI)",
+        "Suporte via chat e email",
+        "App mobile",
+        "Certificado digital grátis"
+      ],
+      "constraints": ["Apenas para MEI", "Sem consultoria incluída"]
+    },
+    {
+      "id": "simples-nacional",
+      "name": "Simples Nacional",
+      "price_month": 119.9,
+      "nf_limit_per_month": null,
+      "payroll_included": false,
+      "advisory_included": true,
+      "support_sla": "chat",
+      "target": ["ME", "EPP"],
+      "features": [
+        "Emissão ilimitada de notas fiscais",
+        "Apuração de impostos",
+        "Declarações obrigatórias",
+        "Consultoria contábil",
+        "Suporte prioritário",
+        "App mobile",
+        "Relatórios gerenciais"
+      ]
+    },
+    {
+      "id": "completo",
+      "name": "Completo",
+      "price_month": 219.9,
+      "nf_limit_per_month": null,
+      "payroll_included": true,
+      "advisory_included": true,
+      "support_sla": "phone",
+      "target": ["ME", "EPP"],
+      "features": [
+        "Tudo do plano Simples Nacional",
+        "Folha de pagamento completa",
+        "eSocial e outras obrigações trabalhistas",
+        "Suporte telefônico",
+        "Contador dedicado",
+        "Consultoria fiscal e trabalhista"
+      ]
+    }
+  ]
+}

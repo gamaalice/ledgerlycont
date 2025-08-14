@@ -1,0 +1,66 @@
+{
+  "id": "omie",
+  "name": "Omie Contabilidade",
+  "category": "contabilidade",
+  "site_url": "https://contabilidade.omie.com.br",
+  "logo_url": "https://placeholder.svg/120x60/FF6B35/FFFFFF?text=Omie",
+  "last_updated": "2024-01-15T10:00:00Z",
+  "source_urls": ["https://contabilidade.omie.com.br/planos"],
+  "plans": [
+    {
+      "id": "mei-digital",
+      "name": "MEI Digital",
+      "price_month": 29.9,
+      "nf_limit_per_month": 50,
+      "payroll_included": false,
+      "advisory_included": false,
+      "support_sla": "email",
+      "target": ["MEI"],
+      "features": [
+        "Até 50 NF/mês",
+        "DASN-SIMEI automático",
+        "DAS em dia",
+        "Suporte digital",
+        "Integração com ERP Omie"
+      ],
+      "constraints": ["Limite de 50 NF/mês", "Apenas suporte digital"]
+    },
+    {
+      "id": "crescimento",
+      "name": "Crescimento",
+      "price_month": 179.9,
+      "nf_limit_per_month": 1000,
+      "payroll_included": false,
+      "advisory_included": true,
+      "support_sla": "chat",
+      "target": ["ME", "EPP"],
+      "features": [
+        "Até 1000 NF/mês",
+        "Apuração completa",
+        "Declarações obrigatórias",
+        "Consultoria contábil",
+        "Integração ERP",
+        "Relatórios gerenciais"
+      ]
+    },
+    {
+      "id": "expansao",
+      "name": "Expansão",
+      "price_month": 349.9,
+      "nf_limit_per_month": null,
+      "payroll_included": true,
+      "advisory_included": true,
+      "support_sla": "priority",
+      "target": ["EPP"],
+      "features": [
+        "NF ilimitadas",
+        "Folha completa",
+        "eSocial e obrigações",
+        "Consultoria especializada",
+        "Suporte prioritário",
+        "Contador dedicado",
+        "Integração completa ERP"
+      ]
+    }
+  ]
+}

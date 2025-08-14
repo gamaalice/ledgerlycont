@@ -1,0 +1,62 @@
+{
+  "id": "qipu",
+  "name": "Qipu Contabilidade",
+  "category": "contabilidade",
+  "site_url": "https://qipu.com.br",
+  "logo_url": "https://placeholder.svg/120x60/00C853/FFFFFF?text=Qipu",
+  "last_updated": "2024-01-15T10:00:00Z",
+  "source_urls": ["https://qipu.com.br/planos"],
+  "plans": [
+    {
+      "id": "mei-essencial",
+      "name": "MEI Essencial",
+      "price_month": 49.9,
+      "nf_limit_per_month": 200,
+      "payroll_included": false,
+      "advisory_included": false,
+      "support_sla": "email",
+      "target": ["MEI"],
+      "features": ["Emissão de até 200 NF/mês", "DASN-SIMEI", "DAS em dia", "Suporte por email", "Plataforma online"],
+      "constraints": ["Limite de 200 NF/mês", "Sem consultoria"]
+    },
+    {
+      "id": "micro-empresa",
+      "name": "Micro Empresa",
+      "price_month": 149.9,
+      "price_setup": 200.0,
+      "nf_limit_per_month": 500,
+      "payroll_included": false,
+      "advisory_included": true,
+      "support_sla": "chat",
+      "target": ["ME"],
+      "features": [
+        "Emissão de até 500 NF/mês",
+        "Apuração de impostos",
+        "Declarações obrigatórias",
+        "Consultoria mensal",
+        "Suporte via chat",
+        "Relatórios fiscais"
+      ]
+    },
+    {
+      "id": "empresa-plus",
+      "name": "Empresa Plus",
+      "price_month": 299.9,
+      "price_setup": 300.0,
+      "nf_limit_per_month": null,
+      "payroll_included": true,
+      "advisory_included": true,
+      "support_sla": "phone",
+      "target": ["ME", "EPP"],
+      "features": [
+        "Emissão ilimitada de NF",
+        "Folha de pagamento",
+        "eSocial",
+        "Consultoria especializada",
+        "Suporte telefônico",
+        "Contador dedicado",
+        "Relatórios avançados"
+      ]
+    }
+  ]
+}
